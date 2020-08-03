@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>comparisons</title>
+    <title>visualization: latitude vs. humidity</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"></script>
@@ -62,29 +62,32 @@
     <!-- page content -->
     <div class = "container">
 
-        <!-- page grid setup -->
+        <!-- main description setup -->
         <div class = "row">
-          <div class = "col col-12">
-            <h1>Comparison: Latitude vs. X</h1>
+          <div class = "col col-12 col-md-7">
+            <h1>Humidity</h1>
             <hr>
-            <p>Click any plot to get an in-depth analysis.</p>
+            <img src="resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+            <p>There is no visually discernible trend between latitude and humidity in our sample. As a whole, cities were more likely to have a humidity closer to 100% rather than 0%.</p>
           </div>
-          <div class = "row">
-            <div class = "col col-12 col-md-6">
-              <h3>vs. Max Temperature</h3>
-              <a href="visualization1.html"><img src="resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature"></a>
-            </div>
-            <div class = "col col-12 col-md-6">
-              <h3>vs. Humidity</h3>
-              <a href="visualization2.html"><img src="resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
-            </div>
-            <div class = "col col-12 col-md-6">
-              <h3>vs. Cloudiness</h3>
-              <a href="visualization3.html"><img src="resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
-            </div>
-            <div class = "col col-12 col-md-6">
-              <h3>vs. Wind Speed</h3>
-              <a href="visualization4.html"><img src="resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+            
+          <!-- visualization side box setup -->
+          <div class = "col col-12 col-md-5">
+            <h2 id = "vistitle">Visualizations</h2>
+            <hr>
+            <div class = "row">
+              <div class = "col col-3 col-md-6">
+                <a href="visualization1.html"><img src="resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class = "sidevisgrid"></a>
+              </div>
+              <div class = "col col-3 col-md-6">
+                <a href="visualization2.html"><img src="resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" class = "sidevisgrid"></a>
+              </div>
+              <div class = "col col-3 col-md-6">
+                <a href="visualization3.html"><img src="resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class = "sidevisgrid"></a>
+              </div>
+              <div class = "col col-3 col-md-6">
+                <a href="visualization4.html"><img src="resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class = "sidevisgrid"></a>
+              </div>
             </div>
           </div>
         </div>
