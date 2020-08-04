@@ -8,9 +8,9 @@ nav {
 }
 
 /* main body text */
-h1, h2, h3, nav {
+h1, h2, h3, .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 p {
