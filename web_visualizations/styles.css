@@ -28,7 +28,7 @@ p {
     }
 }
 
-/* main body colors */
+/* main body formatting */
 html, body {
     background-color: whitesmoke;
 }
@@ -36,6 +36,7 @@ html, body {
 .container {
     background-color: white;
     padding: 20px;
+    margin-bottom: 40px;
     border: darkslategrey 5px solid;
     z-index: 1;
 }
