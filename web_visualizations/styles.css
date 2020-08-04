@@ -1,21 +1,40 @@
-img {
-    max-width: 100%;
-}
-
-body {
-    width: 100%;
-    min-height: 100%;
-    background-color: lightgrey;
-}
-
+/* navbar */
 nav {
     margin-bottom: 40px;
 }
 
-.navbar-button {
-    font-size: 25px;
+.navbar {
+    background-color: darkslategrey;
 }
 
-.box {
+/* main body text */
+h1, h2, h3, nav {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: darkslategrey;
+}
+
+/* main body colors */
+html, body {
+    background-color: whitesmoke;
+}
+
+.container {
     background-color: white;
+    padding: 20px;
+    border: darkslategrey 5px solid;
+    z-index: 1;
+}
+
+/* images */
+img {
+    max-width: 100%;
+}
+
+.currentimg {
+    border: grey 2px solid;
 }
