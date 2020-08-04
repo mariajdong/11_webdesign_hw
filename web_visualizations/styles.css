@@ -18,6 +18,16 @@ p {
     color: darkslategrey;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 37px;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+}
+
 /* main body colors */
 html, body {
     background-color: whitesmoke;
